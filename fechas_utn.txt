@@ -2,9 +2,9 @@ PROYECTO
 	ABR(25) - TPI - 1 entrega
 	JUN(13) - PARCIAL 1
 GERENCIAL
-	MAYO(4) - PARCIAL
+	MAYO(4) - PARCIAL 14:20
 	ABR(20) - TP2
-	? - TPI
+	MAYO(4) - TPI
 SISTEMAS DE GESTION
 	ABR(25) TP 1 - DATASET
 	? - PARCIAL
@@ -13,3 +13,15 @@ JAVA
 MINERIA DE DATOS
 	TPC ?
 	TPI ?
+
+
+___________________
+
+SEMANA:
+
+GERENCIAL
+	parcial gerencial
+	entrevista
+	tp2
+	cuestionario TPI
+	TPI
