@@ -1,0 +1,16 @@
+COMANDOS GIT
+-----------
+
+git clone <repositorio url>  (clonar repositorio existente)
+
+git init   			(inicia un nuevo repositorio)
+
+git remote add origin https://github.com/user/repo.git (Setea un nuevo repositorio que fue iniciado anteriormente dandole el nombre "origin" y la "url")
+
+git add <archivo>   	-- git add . ---> ("añade todo lo qe contiene el directorio actual en el cual te encontras")
+
+git commit -m "mensaje"    
+
+git push origin master     (pushea(actualiza los cambios realizados al repositorio actual)
+
+git pull (actualiza los cambios realizados por otros en el repositorio actual)
