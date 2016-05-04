@@ -1,0 +1,41 @@
+PROYECTO
+--------
+	ABR(25) - TPI - 1 entrega 		--PENDIENTE
+	JUN(13) - PARCIAL 1
+
+	FECHA(?) - TPI - 2 entrega		--VER FECHA
+	APUNTES					--CTC IMPRIMIR
+	
+	EMAIL PROFESORA POR ENTREGA 1 
+
+GERENCIAL
+---------
+	MAYO(4) - PARCIAL 14:20
+
+	ABR(20) - TP1				--PENDIENTE RESPUESTA, ENTREGAR IMPRESO
+	ABR(20) - TP2				--PENDIENTE, ENTREGAR IMPRESO
+	MAYO(4) - TPI				--PENDIENTE, ENTREGAR IMPRESO
+
+	FECHA(?) - PARCIAL 2			--VER FECHA
+
+SISTEMAS DE GESTION
+-------------------
+	ABR(25) TP 1 - DATASET			--VER RESPUESTA PROFESOR
+	FECHA(?) - PARCIAL			--AVERIGUAR
+
+	FECHA(?) - TP 2				--VER FECHA, COMENZARLO
+
+JAVA
+----
+	AGO(?) - PARCIAL
+	TPI 					--VER FECHA DE ENTREGA --COMENZAR
+
+MINERIA DE DATOS
+----------------
+	TPC ?
+	TPI ? 					--VER FECHA DE ENTREGA
+
+--------------------------------------------------------------------------------
+
+MESA DE EXAMEN MAYO
+
