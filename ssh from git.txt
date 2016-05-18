@@ -1,0 +1,59 @@
+FIRST
+
+command: 	git config --global user.name "<USERNAME>"
+command: 	git config --global user.email "<EMAIL>"
+
+
+Reviewing your SSH keys
+
+	Start SSH agent in the background.
+
+	command:	eval "$(ssh-agent -s)"
+
+	response:	Agent pid 59566
+
+	Find and take a note of your public key fingerprint. If you're using OpenSSH 6.7 or older:
+
+	command: 	ssh-add -l
+
+	response: 	2048 a0:dd:42:3c:5a:9d:e4:2a:21:52:4e:78:07:6e:c8:4d /Users/USERNAME/.ssh/id_rsa (RSA)
+
+
+Generating a new SSH key
+
+	Open Terminal.
+
+	Paste the text below, substituting in your GitHub email address.
+
+	command: 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+	response: 	# Creates a new ssh key, using the provided email as a label
+			Generating public/private rsa key pair.
+
+Adding your SSH key to the ssh-agent
+
+	command: 	eval "$(ssh-agent -s)"
+
+	command: 	ssh-add ~/.ssh/id_rsa             <id_rsa o nombre de la clave privada>
+
+Adding a new SSH key to your GitHub account
+
+	Copy the generated public key on the directory.ssh and paste on the github account, In the user settings sidebar, click SSH and GPG keys.
+	SSH Key buttonClick New SSH key. In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal Mac,
+	you might call this key "Personal MacBook Air".
+
+	Paste your key into the "Key" field.
+	The Add key buttonClick Add SSH key.
+
+
+Testing your SSH connection
+
+	command: 	ssh -T git@github.com
+	
+	repsonse: 	Hi username! You've successfully authenticated, but GitHub does not
+	provide shell access.
+
+AND FOR THE LAST
+----------------
+change the http url to the ssh url
+
+git remote set-url origin git@github.com:user/repo.git
