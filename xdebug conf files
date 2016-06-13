@@ -1,0 +1,69 @@
+INSTALL XDEBUG ON UBUNTU WITH PHP7 AND PHP5
+
+- Download xdebug-2.4.0.tgz (I like to use wget -O ~/downlaods/xdebug-2.4.0.tgz http://xdebug.org/files/xdebug-2.4.0.tgz on Ubuntu)
+- Unpack the downloaded file with tar -xvzf xdebug-2.4.0.tgz
+- cd xdebug-2.4.0
+	- For PHP7.0 --> WORKING
+	phpize7.0
+	./configure
+	make
+	cp modules/xdebug.so /usr/lib/php/20151012
+	then create xdebug.ini on /etc/php/7.0/mods-available.
+
+	For PHP5   --> WORKING
+	phpize5.6
+	./configure
+	make
+	cp modules/xdebug.so /usr/lib/php/20131226
+	then create xdebug.ini /etc/php5/mods-available.
+
+- Add the symbolic links to xdebug.ini
+
+	sudo ln -sf /etc/php/7.0/mods-available/xdebug.ini /etc/php/7.0/fpm/conf.d/20-xdebug.ini
+	sudo ln -sf /etc/php/7.0/mods-available/xdebug.ini /etc/php/7.0/cli/conf.d/20-xdebug.ini
+	sudo ln -sf /etc/php/7.0/mods-available/xdebug.ini /etc/php/7.0/apache2/conf.d/20-xdebug.ini
+
+- Add this lines to the files:
+
+	---------------------
+	/etc/php/7.0/apache2/php.ini 
+	---------------------
+	xdebug.remote_enable= on
+
+	-----------------------------------
+	/etc/php/7.0/mods-available/xdebug.ini
+	-----------------------------------
+	zend_extension="/usr/lib/php/20151012/xdebug.so"   OR    zend_extension=xdebug.so
+
+	xdebug.remote_enable = on
+	xdebug.remote_handler = dbgp
+	xdebug.remote_mode = req
+	xdebug.profiler_enable_trigger = 1
+	xdebug.profiler_enable = 0
+	xdebug.profiler_output_name = cachegrind.out.%p
+	xdebug.profiler_output_dir = "/tmp"
+	xdebug.remote_host=localhost
+	xdebug.remote_port=9000
+	xdebug.remote_autostart=0
+	xdebug.remote_log="/var/log/xdebug.log"
+	xdebug.idekey=PHPSTORM
+
+______________________________________________________________________________________________________________________________
+
+- Finally
+
+	- sudo a2dismod php5.6
+	- sudo a2enmod php7.0
+	- sudo service apache2 restart
+	- sudo service php7.0-fpm restart
+
+- Check it
+php -m | grep -i xdebug
+
+- should print:
+xdebug
+Xdebug
+
+_______________________________________________________________________________________________________________________________
+
+
