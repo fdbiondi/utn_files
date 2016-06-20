@@ -7,6 +7,8 @@ JUN13 - PRY (P) - DONE
 
 JUN13,14 - PRY (1E - FIXES)		--TO DO
 
+-------------------------------------------------------------FECHA ACTUAL 20 JUNIO----------------------------------------------
+
 JUN23 - AGL TT (FODA) 			--TO FIX
 JUN21 - AGL TM (TPI)
 JUN22 - AGL TT (2E TPI)
@@ -18,6 +20,8 @@ JUN30 - AGL TT (PRESENTACION)
 
 JUL01 - MID (TPI 2E)
 JUL03 - PRY (2E)
+ 
+AGO22 - PRY (TP-Especial)
 
 AGO - JAVA (P)
 AGO - JAVA (TPI)
