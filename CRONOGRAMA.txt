@@ -1,19 +1,24 @@
-CRONOGRAMA:	      HECHO	OBSERV
+CRONOGRAMA:	 	     HECHO	OBSERV
 
-ABR25 - PRY (1E)	X  	CORREGIR
-MAY30 - MD(1E)		X  	CORREGIR
-MAY17 - AGL (P)		X
-MAY11 - IA (P) 		X
-JUN13 - PRY (P) 	X
-JUN16 - AGL TT (FODA) 	X
-JUN17 - MD (2E) 	X  	CORREGIR
-JUN21 - AGL TM (TPI) 	X
-JUN23 - AGL TT (2E) 	X
-JUN27 - SG (TPI)	X
-JUL01 - IA (TP1)	X
+ABR25 - PRY (1E)		X  	CORREGIR
+MAY30 - MD(1E)			X  	CORREGIR
+MAY17 - AGL (P)			X
+MAY11 - IA (P) 			X
+JUN13 - PRY (P) 		X
+JUN13,14 - PRY (1E - FIXES)	X	CORREGIR
+JUN16 - AGL TT (FODA) 		X
+JUN17 - MD (2E) 		X  	CORREGIR
+JUN21 - AGL TM (TPI) 		X
+JUN23 - AGL TT (FODA) 		X
+JUN23 - AGL TT (2E) 		X
+JUN27 - SG (TPI)		X
+JUN30 - AGL TT (PRESENTACION)	X
+-------------------------------------------------------------FECHA ACTUALIZACION - 1 JULIO----------------------------------------------
+JUL03 - PRY (2E)
+JUL04 - IA (TP1)		X
 JUL25 - SG (P)	 	 	
 JUL28 - SG (P) negro	
-JUL03 - PRY (2E)
-JUL04 - IA (TP1)
 AGO88 - JAVA (P)
 AGO22 - PRY (TP INV)
+AGO - JAVA (P)
+AGO - JAVA (TPI)
